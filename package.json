@@ -1,0 +1,16 @@
+{
+  "name": "proyecto-jsonserver",
+  "version": "1.0.0",
+  "description": "JSON server",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alvaro Cardozo",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.1"
+  }
+}
